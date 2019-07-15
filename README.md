@@ -8,11 +8,6 @@ Step by step play video
 
 VideoStream.cs code following.
 
-public class VideoStream : MonoBehaviour
-{
-    public VideoPlayer videoPlayer;
-    public RawImage image;
-
     // Use this for initialization
     void Start()
     {
@@ -54,4 +49,3 @@ public class VideoStream : MonoBehaviour
     {
         videoPlayer.SetDirectAudioMute(0, mute);
     }
-}
